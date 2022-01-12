@@ -30,18 +30,12 @@ module.exports = {
                 test: /\.(s[ac]|c)ss$/i,
                 exclude: /styles.css$/,
                 use: [
-                        "style-loader", 
+                        MiniCssExtract.loader, 
                         "css-loader", 
                         "postcss-loader", 
                         "sass-loader"
                     ],
             },
-
-            {
-                test: /styles.css$/,
-                use: [MiniCssExtract.loader, "css-loader"],
-            },
-
             {
                 test: /\.(png|jpe?g|gif)$/,
                 loader: 'file-loader',

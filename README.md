@@ -1,7 +1,7 @@
-# Webpack Starter
+# Webpack y Bootstrap Starter
 
 
-Este es el proyecto inicial para crear utilizando webpack.
+Este es el proyecto inicial para crear utilizando webpack y bootstap.
 
 ### Notas:
 
